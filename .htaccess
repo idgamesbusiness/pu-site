@@ -1,12 +1,2 @@
-#This Apache config file was created by Duplicator Installer on 2022-03-27 22:54:35.
-#The original can be found in archived file with the name .htaccess__[HASH]
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /balai-plj/
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /balai-plj/index.php [L]
-</IfModule>
-# END WordPress
+#Alternate default index page
+DirectoryIndex main.html
